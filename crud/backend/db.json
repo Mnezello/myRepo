@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Athur Oliveira",
+      "email": "aoliveira@cod3r.com.br",
+      "street": "Rua Caxias do Sul",
+      "number": "78",
+      "complement": "Casa 02",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "9876521"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "mjs@empresa.com",
+      "street": "Av. João Pessoa",
+      "number": "100",
+      "complement": "Ap  150",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "zipCode": "7895212"
+    }
+  ]
+}
