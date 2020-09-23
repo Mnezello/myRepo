@@ -1,15 +1,15 @@
 # teste-vuttr-react-frontend
 
 ## Código github
-https://github.com/Mnezello/myRepo
+https://github.com/Mnezello/myRepo/tree/master/vuttr
 
 ## Explicação do código
-
+https://vimeo.com/461039569
 
 ## Instruções para rodar
 
 1) Na pasta do projeto após ser feito o clone, rode `npm install` para baixar as dependencias.
-2) Execute `npm run start` para o projeto rodar, o browser ficará aberto em: [http://localhost:3001](http://localhost:3001) 
+2) Execute `npm start` para o projeto rodar, o browser ficará aberto em: [http://localhost:3001](http://localhost:3001) 
 3) Caso seu fake server rode em uma porta que não seja a 3000, altere no arquivo `/src/services/api.js`
 
 ## Proposta

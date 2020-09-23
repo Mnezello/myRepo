@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {MdClose} from "react-icons/md";
+import { MdClose } from "react-icons/md";
 
 import Button from '../Button';
 
