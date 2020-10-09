@@ -19,7 +19,7 @@ const Main = () => {
             return setError("Por favor, insera o nome da localidade.");
         }
         try{
-            const API_KEY = "498f560030e589f593227978c771b4e9";
+            const API_KEY = "***";
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}&units=metric`;
             const request = axios.get(url);
             const response = await request;
