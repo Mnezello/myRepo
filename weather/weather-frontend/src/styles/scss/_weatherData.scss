@@ -1,0 +1,126 @@
+.weatherContainer {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas:
+      "dateTime dateTime"
+      "city city"
+      "icon icon"
+      "temp temp"
+      "minDegree maxDegree"
+      "wind wind"
+      "humidity humidity";
+    text-align: center;
+    color: $main-text-color;    
+}
+
+p {
+    font-size: 1rem;
+}
+
+.dateTimeContainer {
+    grid-area: dateTime;
+    font-size: 2rem;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: $text-stroke-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.date { 
+    width: 33%;
+}
+
+.localTime {
+    width: 33%;
+}
+
+.utcTime {
+    width: 33%;
+}
+
+.city { 
+    grid-area: city; 
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: $text-stroke-color;
+}
+
+.icon { 
+    grid-area: icon; 
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: $text-stroke-color;
+}
+
+.temp { 
+    grid-area: temp; 
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: $text-stroke-color;
+}
+
+.minDegree { 
+    grid-area: minDegree;
+    font-size: 2.5rem; 
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: $text-stroke-color;
+}
+
+.maxDegree { 
+    grid-area: maxDegree; 
+    font-size: 2.5rem; 
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: $text-stroke-color;
+}
+
+.wind {
+    grid-area: wind;
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: $text-stroke-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.windDirection {
+    width: 50%;
+    margin-left: 4rem;
+}
+
+.directionIcon {
+    padding-right: 1rem;
+}
+
+.windSpeed {
+    width: 50%;
+    margin-right: 4rem;
+}
+
+.speedIcon {
+    padding-right: 1rem;
+}
+
+.humidity { 
+    grid-area: humidity; 
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: $text-stroke-color;
+    padding-top: 2px;
+}
+
+.humidityIcon {
+    padding-right: 1rem;
+}

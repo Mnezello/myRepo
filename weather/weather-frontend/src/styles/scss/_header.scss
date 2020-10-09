@@ -1,0 +1,62 @@
+.weatherForm {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.searchContainer {
+    height: 60%;
+    width: 30%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid $main-text-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.searchIcon {
+    color: $main-text-color;
+    text-shadow: 1px $text-shadow-color;
+    padding-right: 2px;
+}
+
+.searchInput {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    color: $main-text-color;
+    text-shadow: 1px $text-shadow-color;
+    border: none;
+}
+
+.searchButton {
+    height: 60%;
+    width: 20%;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    background: $button-background-color;
+    color: $button-color;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: $button-stroke-color;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.searchButton:hover {
+    color: $button-color-hover;
+    border: 2px solid $button-shadow-border-color-hover;
+    box-shadow: 10px $button-shadow-border-color-hover;
+}
