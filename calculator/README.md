@@ -1,24 +1,22 @@
-# calculator
+# Calculator Vue.js
 
-## Project setup
-```
-npm install
-```
+## Available Scripts
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+In the project directory, you can run:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## `npm install`
 
-### Lints and fixes files
-```
-npm run lint
-```
+Downloads and installs the project dependencies. 
+
+## `npm run serve`
+
+Runs the app
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+## `npm run build`
+
+Creates a production build
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
