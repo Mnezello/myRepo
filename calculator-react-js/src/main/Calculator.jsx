@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
-import './Calculator.css'
-import Button from '../components/Button'
-import Display from '../components/Display'
-import { findAllInRenderedTree } from 'react-dom/test-utils'
+import React, { Component } from 'react';
+import './Calculator.css';
+import Button from '../components/Button';
+import Display from '../components/Display';
 
 const initialState = {
     displayValue: '0',
@@ -31,7 +30,8 @@ export default class Calculator extends Component {
         if (this.state.current === 0) {
             this.setState({ operation, current: 1, clearDisplay: true} )
         } else {
-            const equals = operation === '='
+            const equals = (operation === '=' || operation === '+/-')
+          
             const currentOperation = this.state.operation
 
             const values = [...this.state.values]
@@ -81,8 +81,7 @@ export default class Calculator extends Component {
             return
         }
 
-        const clearDisplay = this.state.displayValue === '0'
-            || this.state.clearDisplay
+        const clearDisplay = this.state.displayValue === '0' || this.state.clearDisplay
         const currentValue = clearDisplay ? '' : this.state.displayValue
         const displayValue = currentValue + n
         this.setState({ displayValue, clearDisplay: false })
