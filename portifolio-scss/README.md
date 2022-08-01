@@ -1,5 +1,7 @@
 # Portifolio project frontend
 
+Portifolio project with SCSS files.
+
 ## `npm install -g live-server`
 
 Downloads and installs the project live-server to runs the app.
